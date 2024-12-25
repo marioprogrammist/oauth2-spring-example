@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: oauth2-spring-example
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id:
+            client-secret:
+            redirect-uri: http://localhost:8080/login/oauth2/code/
